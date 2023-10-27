@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myContainer {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card {
+    width: calc(100% / 12 * 4);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
