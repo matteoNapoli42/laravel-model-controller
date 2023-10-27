@@ -8,7 +8,9 @@
 </head>
 
 <body>
-
+    @foreach($movies as $movie)
+    <span>{{$movie['title']}}</span>
+    @endforeach
 </body>
 
 </html>
