@@ -13,6 +13,7 @@
     <div class="myContainer ">
         @foreach($movies as $movie)
         <div class="card">
+            <img src="https://picsum.photos/200/300?random={{$random = rand(0,100)}}" alt="" class=" imgStyle">
             <h4>{{$movie['title']}}</h4>
             <span>Data di rilascio : {{$movie['date']}}</span>
             <span>Nazione : {{$movie['nationality']}}</span>
